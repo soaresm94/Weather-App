@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form, div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    top: 50px;
+}
+
+div{
+    flex-direction: column;
+}
+
+input{
+    font-size: 4rem;
+    width: 40w;
+}
+
+input:focus{
+    background: lightgray;
+}
+
+button{
+    display: none;
+}
